@@ -1,0 +1,177 @@
+
+
+
+    body {
+
+      background-color: #bab1b1;
+      background-image: linear-gradient(178deg,
+          #0c578de5,
+          rgba(18, 81, 128, 0.8),
+          #2782b9c4);
+      /* height: 100vh; */
+      font-family: "Open Sans", sans-serif;
+
+    }
+
+
+    .card {
+      flex-shrink: 0;
+      margin-bottom: 5px;
+      min-width: 100px;
+      background-color: rgba(255, 255, 255, 0.188);
+      color: white;
+    }
+
+
+    .h2,
+    .sunrise,
+    .sunset,
+    .Visibility,
+    .feels_like,
+    .humidity,
+    .windspeed {
+      font-family: "Open Sans", sans-serif;
+
+    }
+
+
+
+    .country {
+      font-size: 1.5rem;
+      margin-top: 15px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .h2 {
+      margin-top: 15px;
+    }
+
+    .city {
+      margin-top: 15px;
+      font-size: 1.5rem;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .temp {
+
+      font-size: 7rem;
+      font-style: italic;
+      font-family: "Open Sans", sans-serif;
+      padding: 10px;
+      text-align: center;
+      font-weight: lighter;
+    }
+
+
+
+
+
+    .sky {
+      font-size: 2.5rem;
+      font-family: "Roboto", sans-serif;
+
+
+    }
+
+    .weatheremoji {
+
+      width: 150px;
+      margin-right: -30px;
+
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+    .margintcustom {
+      margin-top: -25px;
+      margin-bottom: -25px;
+    }
+
+    .tmpConvert {
+      /* font-weight: bolder; */
+      font-size: 2rem;
+    }
+
+  
+    .input {
+      
+    }
+
+ 
+    .eror {
+      color: red;
+      font-family: "Roboto", sans-serif;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      /* text-align: center;
+      grid-area: eror; */
+    }
+
+    .showeror {
+      display: block;
+      /* text-align: center;
+      grid-area: eror; */
+    }
+
+    .c:hover {
+      cursor: pointer;
+    }
+
+    .f:hover {
+      cursor: pointer;
+    }
+
+    .active {
+
+      color: rgba(255, 255, 255, 0.999);
+    }
+    .disable {
+
+      color: rgba(255, 255, 255, 0.553);
+    }
+  
+    @media (max-width: 471px) {
+        .temp {
+            font-size: 4rem;  
+        }
+        .city {
+            font-size: 1rem;
+       
+          }
+        .sky {
+            font-size: 1.5rem;
+       
+          }
+        .weatheremoji {
+
+            /* margin-bottom: 10px; */
+            width: 110px;
+          }
+
+          .c{
+            font-size: 1.5rem;  
+          }
+          .f{
+            font-size: 1.5rem;  
+          }
+    }
+    @media (min-width: 472px) and (max-width: 590px) {
+        .temp {
+            font-size: 5rem;  
+        }
+        .weatheremoji {
+            width: 120px;
+            /* margin-top: 10px; */
+          }
+
+          
+
+          .c{
+            font-size: 2rem;  
+          }
+          .f{
+            font-size: 2rem;  
+          }
+    }
